@@ -1,0 +1,209 @@
+{
+  "id": "example-guided-prayers",
+  "name": "Example Guided Prayers",
+  "description": "A starter set of guided prayer sessions: Release and Receive, Calm, and Lectio Divina.",
+  "author": "Theodia Team",
+  "traditions": ["Catholic", "Protestant", "Orthodox"],
+  "tags": ["starter", "guided", "meditation", "calm", "lection"],
+  "version": "1.0.0",
+  "createdAt": "2026-09-14T00:00:00Z",
+  "source": "repo",
+  "type": "bundle",
+  "payload": {
+    "items": [
+      {
+        "featureType": "guided",
+        "data": {
+          "id": "release-and-receive",
+          "name": "Release and Receive",
+          "description": "A brief guided session to calm, release burdens, repent, and receive forgiveness.",
+          "traditionTag": "General",
+          "folderId": null,
+          "tags": ["repentance", "forgiveness", "anxiety"],
+          "segments": [
+            {
+              "id": "release-calm",
+              "order": 1,
+              "prompt": "Let us calm our hearts.",
+              "durationSeconds": 30,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "release-burdens",
+              "order": 2,
+              "prompt": "Let us lay our burdens before God.",
+              "durationSeconds": 60,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "release-repent",
+              "order": 3,
+              "prompt": "Let us repent of our sins.",
+              "durationSeconds": 60,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "release-forgiven",
+              "order": 4,
+              "prompt": "God has forgiven you, my child.",
+              "durationSeconds": 15,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "release-closing",
+              "order": 5,
+              "prompt": "Go in peace, carrying the grace you have received.",
+              "durationSeconds": 10,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            }
+          ]
+        }
+      },
+      {
+        "featureType": "guided",
+        "data": {
+          "id": "calm",
+          "name": "Calm",
+          "description": "A short, tradition-neutral session for settling the heart before prayer or sleep.",
+          "traditionTag": "General",
+          "folderId": null,
+          "tags": ["calm", "anxiety", "sleep", "breath"],
+          "segments": [
+            {
+              "id": "calm-breath",
+              "order": 1,
+              "prompt": "Take a slow breath. Let your shoulders drop.",
+              "durationSeconds": 20,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "calm-notice",
+              "order": 2,
+              "prompt": "Notice what is weighing on your mind today. Offer it to God without judging it.",
+              "durationSeconds": 45,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "calm-peace",
+              "order": 3,
+              "prompt": "Receive God's peace. You are held.",
+              "durationSeconds": 20,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "calm-amen",
+              "order": 4,
+              "prompt": "Amen.",
+              "durationSeconds": 5,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            }
+          ]
+        }
+      },
+      {
+        "featureType": "guided",
+        "data": {
+          "id": "lectio-divina",
+          "name": "Lectio Divina",
+          "description": "A guided four-movement meditation on a short Scripture passage: read, meditate, pray, contemplate.",
+          "traditionTag": "General",
+          "folderId": null,
+          "tags": ["scripture", "meditation", "lectio", "journal"],
+          "segments": [
+            {
+              "id": "lectio-read",
+              "order": 1,
+              "prompt": "Read the passage slowly. Listen for a word or phrase that stands out.",
+              "durationSeconds": 60,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "lectio-meditate",
+              "order": 2,
+              "prompt": "Meditate on that word or phrase. What is God saying to you through it?",
+              "durationSeconds": 90,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "lectio-pray",
+              "order": 3,
+              "prompt": "Pray in response. Speak to God about what you noticed.",
+              "durationSeconds": 60,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "lectio-contemplate",
+              "order": 4,
+              "prompt": "Contemplate. Rest silently in God's presence.",
+              "durationSeconds": 90,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            },
+            {
+              "id": "lectio-carry",
+              "order": 5,
+              "prompt": "Carry this word with you into the rest of your day.",
+              "durationSeconds": 15,
+              "background": "none",
+              "allowExtend": true,
+              "allowSkip": true,
+              "showProgress": true,
+              "prayerListSegment": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
