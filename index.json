@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-21T00:00:00.000Z",
+  "packages": [
+    {
+      "id": "example-prayers",
+      "type": "prayer-set",
+      "path": "examples.prayer.zip",
+      "name": "Example Prayers",
+      "description": "Example prayer content: a fixed confession on Christology, a starter set of guided prayer sessions, and a sample daily routine.",
+      "author": "Theodia Team",
+      "traditions": [
+        "Catholic",
+        "Protestant",
+        "Orthodox"
+      ],
+      "tags": [
+        "example",
+        "starter",
+        "guided",
+        "routine",
+        "creed"
+      ],
+      "version": "1.0.0"
+    }
+  ]
+}

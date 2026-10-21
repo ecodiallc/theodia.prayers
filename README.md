@@ -1,8 +1,12 @@
 # Theodia Prayers
 
-| File | Contents |
-|---|---|
-| `examples.prayer.zip` | Example routines, guided sessions, and other sample prayer content |
+| ID | Name |
+| --- | ---- |
+| `example-prayers` | Example Prayers |
+
+## Sources
+
+- `example-prayers`: Example prayer content: a fixed confession on Christology, a starter set of guided prayer sessions, and a sample daily routine.
 
 ## Related Repositories
 
